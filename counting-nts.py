@@ -12,6 +12,7 @@ This solution will be implemented using multiple approaches:
     2) For-loop
     3) regex
     4) collections.Counter
+    5) str.count()
 
 """
 
@@ -127,6 +128,7 @@ print(SC(s))
 print(f"Str.count implementation took {time.time() - ts:0.2e}\n")
 
 
+####################################################################################################
 
 
 print("LARGE string comparison")
